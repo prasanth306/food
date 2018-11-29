@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+body{
+background-image:url('cake1.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+animation-name:home_anim;
+animation-duration:8s;
+animation-iteration-count:infinite;
+}
+@keyframes home_anim{
+0%{background-image:url('cake1.jpg');color:gold;}
+25%{background-image:url('cake2.jpg');color:red;}
+50%{background-image:url('cake3.jpg');color:deeppink;}
+75%{background-image:url('cake4.jpg');color:purple;}
+100%{background-image:url('cake1.jpg');color:blue;}
+}
+div:hover{
+transition:1s;
+width:400px;
+height:400px;
+}
+header{
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    }
+.burger{
+position:absolute;
+top:25%;
+left:15%;
+width:350px;
+height:350px;
+background-color:white;
+border-radius:45%;
+}
+.any{
+position:absolute;
+top:25%;
+left:65%;
+background-color:white;
+width:350px;
+height:350px;
+border-radius:45%;
+}
+img{
+
+position:absolute;
+top:16%;
+left:16%;
+width:240px;
+height:240px;
+border-radius:45%;
+}
+    hover{
+        transition: 1s;
+        width: 400px;
+        height:400px;
+    }
+
+</style>
+    <header>
+        <marquee behavior="alternate">THE FOOD MANAGEMENT SYSTEM</marquee>
+    </header>
+<body>
+<div class="burger">
+<a href="order.html" target="_blank" title="ORDER BURGER"><img src="burger.png"></a>
+</div>
+<div class="any">
+<a href="order.html" target="_blank" title="order cake"><img src="cake2.jpg"></a>
+</div>
+</body>
+</html>
